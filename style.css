@@ -1,0 +1,66 @@
+#btn-container {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#addBtn {
+  margin: 20px 0px;
+  margin-right: 261px;
+  width: 70px;
+  height: 30px;
+  background-color: #ed571f;
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+}
+
+#addBtn:hover {
+  background-color: orangered;
+  box-shadow: 2px 2px 3px black;
+  cursor: pointer;
+}
+
+.action-btn {
+  background-color: #ed571f;
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+  margin: 2px 0;
+  margin-right: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+#table-data {
+  overflow-y: auto;
+  max-width: 60%;
+  height: 400px;
+  margin: 50px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f1e39fd6;
+}
+
+td,
+th {
+  border: 2px solid white;
+  padding: 10px 5px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="tel"] {
+  padding: 2px 0px;
+  height: 20px;
+  width: 100%;
+}
