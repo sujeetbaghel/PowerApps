@@ -4,3 +4,15 @@ https://chatverse-hgmd.onrender.com/
 https://www.dropbox.com/scl/fi/jxfry8atw5q2seg0kpv5r/donatetheblood.zip?rlkey=nupouygtnhm31czrpbuzdo0w6&e=1&dl=0
 https://magicui.design/docs/components/confetti
 https://github.com/codewithMUHILAN/Instagram/tree/main/INPUT%20FIELD
+
+npx shadcn@latest add "https://magicui.design/r/confetti"
+
+import { ConfettiButton } from "@/registry/magicui/confetti";
+
+export function ConfettiButtonDemo() {
+  return (
+    <div className="relative">
+      <ConfettiButton>Confetti 🎉</ConfettiButton>
+    </div>
+  );
+}
